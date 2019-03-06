@@ -88,3 +88,5 @@ Gives you the diff between the current state of your files and the last commit. 
 
 
 This is AVALON
+
+SO COOL
