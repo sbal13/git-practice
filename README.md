@@ -99,8 +99,8 @@ Takes entire current branch and moves the pointer for its base commit to the HEA
 
 `git stash`
 
-	Temporarily stashes any changes since previous commit and saves it to the stash list. Use `git stash list` to see list of all stashes (stored in reverse order, i.e. 0 is the latest stash). `git stash apply` to apply all stashed changes to code, `git stash apply <stash identifier>` to apply a specific stash.
+Temporarily stashes any changes since previous commit and saves it to the stash list. Use `git stash list` to see list of all stashes (stored in reverse order, i.e. 0 is the latest stash). `git stash apply` to apply all stashed changes to code, `git stash apply <stash identifier>` to apply a specific stash.
 
 `git reset --hard <COMMIT HASH>`
 	 
-	WARNING: This is dangerous! This allows you to move to a previous commit and discard all commits made afterwards. This should only be done in extreme cases, such as when an API key or other important secret information gets accidentally pushed up and is a permanent part of the commit history. This will only affect your local repo; to get the reset repo to overwrite the repo on your remote, you must use `git push -f <remote> <branch>` to force your local repo's commit history onto the remote.
+WARNING: This is dangerous! This allows you to move to a previous commit and discard all commits made afterwards. This should only be done in extreme cases, such as when an API key or other important secret information gets accidentally pushed up and is a permanent part of the commit history. This will only affect your local repo; to get the reset repo to overwrite the repo on your remote, you must use `git push -f <remote> <branch>` to force your local repo's commit history onto the remote.
