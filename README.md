@@ -85,8 +85,4 @@ Gives you the diff between the current state of your files and the last commit. 
 
 ## Forking and Pull Requests
 
-
-
-This is AVALON
-
-SO COOL
+I'm GONNA USE REBASE
