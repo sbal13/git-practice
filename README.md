@@ -15,6 +15,7 @@ A commit is composed of 3 main pieces of information:
 2. The content of the commit (the changes made during that commit)
 3. A pointer to the next commit
 
+
 When you 
 
 ## Saving 
