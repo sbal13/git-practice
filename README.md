@@ -52,26 +52,39 @@ Gives you the diff between the current state of your files and the last commit. 
 
 `git stash`
 
-
+Temporarily stashes any changes since previous commit and saves it to the stash list. Use `git stash list` to see list of all stashes (stored in reverse order, i.e. 0 is the latest stash). `git stash apply` to apply all stashed changes to code, `git stash apply <stash identifier>` to apply a specific stash.
 
 
 ## Remote vs local
 
 `git remote`
 
+Shows the remotes attachedd to this repo. Adding `-v` flag gives information about which online repo the remote is pointing to. Adding `add <name> <ssh>` allows you to add more remotes to this repo. 
+
 `git push`
+
+Move commit history from local machine to remote repository
 
 `git fetch`
 
+Get a branch from a remote that you do not have saved locally on your machine.
+
 `git pull`
+
+Short for `git fetch && git merge`. First fetches branch from remote repo and then merges into whatever branch you are on.
 
 `git clone`
 
+"Clones" repo onto local machine. Downloads the code.
+
 ## Branching
+
+`git branch`
+
+Thread onto which you can add your work without interrupting or changing other "threads."
 
 `git checkout`
 
-`git branch`
 
 ## Updating
 
@@ -85,3 +98,4 @@ Gives you the diff between the current state of your files and the last commit. 
 
 ## Forking and Pull Requests
 
+THIS IS MASTER
