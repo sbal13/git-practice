@@ -98,6 +98,4 @@ Thread onto which you can add your work without interrupting or changing other "
 
 ## Forking and Pull Requests
 
-THIS IS MASTER
-
-ANOTHER THING ON MASTER
+MERGED
