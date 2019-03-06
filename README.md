@@ -26,7 +26,7 @@ Finalizes a commit. Use `-m` flag to describe what you're committing
 
 `.gitignore`
 
-Usedd to prevent entire files from being staged for commit.
+Used to prevent entire files from being staged for commit.
 
 Example uses:
 API keys
@@ -40,11 +40,19 @@ Anything secret or generated automatically by running application
 
 `git status`
 
+Gives your information about what has and has not been staged for commit.
+
 `git log`
+
+Gives you a history of all of your commits.
 
 `git diff`
 
+Gives you the diff between the current state of your files and the last commit. Basically, anything that hasn't been committedd yet.
+
 `git stash`
+
+
 
 
 ## Remote vs local
